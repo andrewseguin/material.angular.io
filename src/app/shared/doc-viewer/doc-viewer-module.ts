@@ -6,8 +6,8 @@ import {
   MdIconModule,
   MdTabsModule,
   MdTooltipModule,
-  PortalModule
 } from '@angular/material';
+import {PortalModule} from '@angular/cdk';
 import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
 
