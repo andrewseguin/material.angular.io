@@ -13,6 +13,10 @@ export const MATERIAL_DOCS_ROUTES: Routes = [
   {path: 'cdk', pathMatch: 'full', redirectTo: '/cdk/categories'},
   {path: 'components', pathMatch: 'full', redirectTo: '/components/categories'},
   {
+    path: 'theme-builder',
+    loadComponent: () => import('./pages/theme-builder/theme-builder').then(m => m.ThemeBuilder)
+  },
+  {
     path: 'guides',
     loadComponent: () => import('./pages/guide-list').then(m => m.GuideList)
   },

@@ -1,0 +1,24 @@
+:host {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.header {
+  border-bottom: 1px solid var(--mat-sys-outline);
+  padding: 16px;
+}
+
+.page {
+  display: flex;
+}
+
+.control-panel {
+  width: 500px;
+  padding: 16px;
+}
+
+.demo {
+  padding: 16px;
+}
